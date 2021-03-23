@@ -12,7 +12,7 @@ build:
 
 deploy:
   type: statefulset
-  context: rejith/DEV
+  context: skumarpi/DEV
   replicas: 1
   port:
   - 80
@@ -25,5 +25,5 @@ volumes:
   size: 5Gi 
 
 properties:
-  IDE_PASSWORD_HASH: "appz:$2y$10$vj2SB0Hp6yNMQobwv4Oi3u/AoJT6B6VBW5kZ9Go4x8ZjNVdNleq8u"
+  IDE_PASSWORD_HASH: "appz:$2y$10$9NYpPFPsKRVx2mOxbdZLbuM7FAqINFo.IOx2ppKGtLmufOdT4rUke"
   revision : 20
