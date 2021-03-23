@@ -1,7 +1,7 @@
 app:
   name: AppZ IDE
   code: APPZIDE
-  notify: krishnan.rejith@gmail.com
+  notify: skumar@ecloudcontrrol.com
 
 build:
   version: 0.2
